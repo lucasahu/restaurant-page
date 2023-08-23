@@ -4,6 +4,7 @@ module.exports = {
   entry: {
     index: './src/index.js',
     navbar: './src/components/navbar.js',
+    menu: './src/components/menu.js'
   },
   devtool: 'inline-source-map',
   devServer: {
