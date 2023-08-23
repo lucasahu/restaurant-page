@@ -5,6 +5,10 @@ module.exports = {
     index: './src/index.js',
     navbar: './src/components/navbar.js',
   },
+  devtool: 'inline-source-map',
+  devServer: {
+    static: './dist',
+  },
   mode: 'development',
   output: {
     filename: '[name].bundle.js',

@@ -1,4 +1,60 @@
-.banner {
-    width: 100vw;
-    height: 100vh;
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+html, body {
+    margin: 0;
+    height: 100%;
 }
+
+.navbar {
+    background-color: black;
+    font-size: 20px;
+}
+
+.navbar-component {
+    position: sticky;
+    top: 0px;
+    z-index: 11;
+    font-family: 'Outfit';
+}
+
+.navbar-brand {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.navbar-brand::after {
+    content: "©";
+    font-size: 10px;
+}
+
+.banner {
+    transition: 1s;
+    object-fit: cover;
+    width: 100%;
+    height: 100vh;
+    filter: blur(0px) grayscale(60%);
+    z-index: 10;
+}
+
+.banner-container {
+    overflow: hidden;
+}
+
+.banner-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 200px;
+    font-weight: 700;
+    font-family: 'Outfit';
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 10px 1px 0 #000;
+    white-space: nowrap;
+}
+
+.banner-text::after {
+    content: "©";
+    font-size: 50px;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 5px 1px 0 #000;
+  }
