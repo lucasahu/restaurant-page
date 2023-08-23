@@ -4,7 +4,7 @@ menu.classList.add('menu-component');
 
 menu.innerHTML = 
 `<div class="menu">
-    <h1 class="menu-title">Menu</h1>
+    <h1 class="menu-title" id="menu-title">Menu</h1>
     <div class="menu-content">
         <p class="item-title">Items</p>
         <div class="item">
