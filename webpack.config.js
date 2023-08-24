@@ -4,7 +4,11 @@ module.exports = {
   entry: {
     index: './src/index.js',
     navbar: './src/components/navbar.js',
-    menu: './src/components/menu.js'
+    menu: './src/components/menu.js',
+    location: './src/components/location.js',
+    locationModal: './src/components/locationModal.js',
+    contact: './src/components/contact.js',
+    footer: './src/components/footer.js'
   },
   devtool: 'inline-source-map',
   devServer: {

@@ -162,3 +162,85 @@ html, body {
     font-weight: 700;
     margin-bottom: 0px;
 }
+
+.location-component {
+    width: 100vw;
+    height: 100vh;
+}
+
+.location-component {
+    display: flex;
+    background-image: url(./img/location.jpg);
+    background-size: cover;
+    filter: grayscale(60%);
+    justify-content: center;
+    align-items: center;
+}
+
+.location-modal {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 30vw;
+    min-width: 300px;
+    height: 50vh;
+    min-height: 400px;
+    background-color: white;
+    box-shadow: 10px 10px 1px 1px black;
+    border-radius: 3px;
+    gap: 40px;
+}
+
+.location-title > p {
+    font-size: 58px;
+    font-weight: 700;
+    font-family: 'Outfit';
+}
+
+.location-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.location-info > p {
+    font-size: 24px;
+    font-family: 'Outfit';
+}
+
+.contact-component {
+    width: 100vw;
+    height: 95vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-title {
+    text-align: center;
+    font-size: 58px;
+    font-weight: 700;
+    font-family: 'Outfit';
+}
+
+.contact-info {
+    font-family: 'Outfit';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+}
+
+.footer-component {
+    background-color: black;
+    color: white;
+}
+
+.footer-text {
+    margin-bottom: 0px;
+    font-family: 'Outfit';
+}

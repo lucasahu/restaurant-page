@@ -1,5 +1,9 @@
 import { navbar } from "./components/navbar";
 import { menu } from "./components/menu";
+import { locationComponent } from "./components/location";
+import { locationModal } from "./components/locationModal";
+import { contact } from "./components/contact";
+import { footer } from "./components/footer";
 import Banner from "./img/banner.jpg"
 import "./styles.css"
 import Espresso from "./img/espresso.jpg";
@@ -99,3 +103,10 @@ frappeContainer.appendChild(myFrappe);
 
 rightPictures.appendChild(matchaContainer);
 matchaContainer.appendChild(myMatcha);
+
+content.appendChild(locationComponent);
+locationComponent.appendChild(locationModal);
+
+content.appendChild(contact);
+
+content.appendChild(footer);
